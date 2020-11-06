@@ -5,16 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Hello!</title>
-
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <link
-  rel="stylesheet"
-  href="css.css"
-/>
+    
+    <style>
+      table,th,td {border: 1px solid black;
+                  border-collapse: collapse;}
+    </style>
   </head>
   <body>
     <img
@@ -34,11 +29,39 @@
       This is a link to
       <a href="portfolio.html">my portfolio</a>!
     </p>
-    </div>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
+    <table style="width:100%">
+      <tr>
+        <th>Likes</th>
+        <th>Dislikes</th>
+        <th>Pretty eh about it</th>
+      </tr>
+
+      <tr>
+        <td>Spicy and Sweet food</td>
+        <td>Bitter food</td>
+        <td>Sour and Bland food</td>
+      </tr>
+
+      <tr>
+        <td>Pool and Badminton</td>
+        <td>Soccer and Tennis</td>
+        <td>Basketball</td>
+      </tr>
+    </table>
+
+    <h1>Please enter your details here for a totally legit business that will not misuse your private info (:</h1>
+    
+    <form>
+     <label for="fname">First name</label><br>
+     <input type="text" id="fname"><br>
+     <label for="bank number">Bank Account Number</label><br>
+     <input type="text" id="bank number"><br>
+     <label for="pw">Password</label><br>
+     <input type="text" id="pw"><br>
+
+
+
+    </form>
   </body>
 </html>
