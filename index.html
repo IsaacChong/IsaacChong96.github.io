@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="mobile-web-app-capable" content="yes">
 
     
@@ -12,6 +12,20 @@
                   border-collapse: collapse;}
       
       body {background-color:powder-blue;}
+
+      .flex-container {
+       display: flex;
+       background-color: DodgerBlue;
+      }
+
+      .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+      }
+
+
     </style>
   </head>
   <body>
@@ -32,6 +46,12 @@
       The link to my portfolio can be found in this image:<br>
       <a href="https://github.com/IsaacChong96"><img border="0" alt="portfolio" src="https://i.kym-cdn.com/entries/icons/mobile/000/021/807/ig9OoyenpxqdCQyABmOQBZDI0duHk2QZZmWg2Hxd4ro.jpg" width="383" height="215.438"></a>
     </p>
+
+    <div class="flex-container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
 
     <h2>My home: Singapore</h2>
     <p>So i've stayed in Singapore all my life and one of its strongest points would be the sheer variety of tasty food that can be found.
