@@ -10,10 +10,52 @@
   <style>
   </style>
   <body>
-   <h1>List of Resources Shared</h1>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#gitcmdln">Git/Command Line Resources</a>
+              <a class="dropdown-item" href="#">HTML/CSS Resources</a>
+              <a class="dropdown-item" href="#">Javascript Resources</a>
+              <a class="dropdown-item" href="#">Java Resources</a>
+              <a class="dropdown-item" href="#">Other Resources</a>
+              <a class="dropdown-item" href="#devs">Notable Developer Figures</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+   <br>
+   <br>
+   <br>
+   <h1 id="home">List of Resources Shared</h1>
+
+   
 
    <p>So this is a page containing all the current resources shared thus far. I will be updating both this page and the <a href="https://docs.google.com/document/d/1JXZOqj3wbHbawkUzWZHRGHJrmraA3q4M8FFtI_LAbdM/edit?usp=sharing">Google docs</a> so feel free to use whichever you prefer.<br>
       Do let me know if i've missed out on any links or if there are any resources you would like to share.</p>
+
+   <p><a href="https://docs.google.com/spreadsheets/d/1BqcSNSfkJEkmOgHMIob3FI7GwToUbD4nCRMm9oNs9Lo/edit?usp=sharing">Table of learning objectives covered by Bryan so far.</a></p>
 
 
    <h2>Index</h2>
@@ -67,6 +109,9 @@
     <li><a href="https://www.figma.com/">Figma, a prototyping site for UI/UX development</a></li>
     <li><a href="https://www.webdesignerdepot.com/2019/10/15-best-css-libraries-for-2019/">Article with a list of best CSS libraries</a></li>
     <li><a href="https://get.foundation/">Foundation, a CSS library</a></li>
+    <li><a href="https://webflow.com/">Website design/hosting platform</a></li>
+    <li><a href="https://theadminbar.com/simple-responsive-font-size-calculator/">Simple font size calculator</a></li>
+    <li><a href="http://www.responsivegridsystem.com/calculator/">Grid percentage calculator</a></li>
    </ul>
 
    <h4 id="javascript">Javascript Resources</h4>
@@ -108,10 +153,13 @@
     <li><a href="https://twitter.com/dhh">DHH creator of Ruby on Rails</a></li>
    </ul>
 
-  <!Just a few things to take note of for future development of this site.
-   Concrete: Plan to add a navbar.
-   Fluid: Try to add more bootstrap features.
-   Fluid: Add a flexbox>
+  <!Just a few things to note for future development of this page.
+   Fixed: Plan to add a navbar.
+   Optional: Try to add more bootstrap features.
+   Optional: Add a flexbox
+   
+   Notes: Navbar has been added but issues have been identified with the dropdown bar. 
+          Ids have been assigned to the dropdown menu and the "Home" button links to the "List of Resources Shared" heading.>
    
 
 
